@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    font-family: 'Arial', sans-serif;
+}
+
+header, footer {
+    background: #1a73e8;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
